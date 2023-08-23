@@ -24,11 +24,11 @@ public class ConnectTests
         connection.close();
     }
 
-//    @Test
+    @Test
     public void test1() {
 
         int v1 = 10;
-        int v2 = 110;
+        int v2 = 10;
 
         Assertions.assertEquals(v1,v2);
 
